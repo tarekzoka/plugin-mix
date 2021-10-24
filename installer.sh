@@ -150,13 +150,13 @@ sleep 1; clear
 echo ""
 echo "===================================================================================================================="
 echo "**                                                                    *"
-echo "**            IPtoSAT $VERSION *"  
+echo "**            plugin-mix $VERSION *"  
 echo "=================
 =============================
 =================================="                 
-echo "**    Uploaded by:     EMIL_NABIL    *"               
+echo "**    Uploaded by:     BB_BB    *"               
 echo "** "                                                               
-echo ".      WELCOME TO PLUGIN IPTOSAT "
+echo ".      WELCOME TO PLUGIN plugin-mix "
 echo ""
 
 exit 0
