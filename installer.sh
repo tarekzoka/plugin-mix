@@ -10,11 +10,11 @@
 #!/bin/sh
 #
 
-wget -O /var/volatile/tmp/oscam-supcam_01_all.ipk "https://raw.githubusercontent.com/emilnabil/emil_script_package/main/oscam-supcam_01_all.ipk"
+wget -O /var/volatile/tmp/enigma2-plugin-extensions-3plugin_1.5_all.ipk "https://raw.githubusercontent.com/tarekzoka/plugin-mix/main/https://github.com/tarekzoka/plugin-mix/raw/main/enigma2-plugin-extensions-3plugin_1.5_all.ipk"
 wait
 opkg install --force-overwrite /tmp/*.ipk
 wait
-rm -r /var/volatile/tmp/oscam-supcam_01_all.ipk
+rm -r /var/volatile/tmp/enigma2-plugin-extensions-3plugin_1.5_all.ipk
 wait
 sleep 2;
 exit 0
