@@ -10,7 +10,7 @@
 ###########################################
 # Configure where we can find things here #
 TMPDIR='/tmp'
-VERSION='1.8'
+VERSION='1.5'
 PACKAGE='enigma2-plugin-extensions-plugin-mix'
 MY_URL='https://raw.githubusercontent.com/tarekzoka/plugin-mix/main/XcPlugin'
 
