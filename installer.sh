@@ -10,7 +10,7 @@
 #!/bin/sh
 #
 
-wget -O /var/volatile/tmp/enigma2-plugin-extensions-3plugin_1.5_all.ipk "https://raw.githubusercontent.com/tarekzoka/plugin-mix/main/https://github.com/tarekzoka/plugin-mix/raw/main/enigma2-plugin-extensions-3plugin_1.5_all.ipk"
+wget -O /var/volatile/tmp/enigma2-plugin-extensions-3plugin_1.5_all.ipk "https://github.com/tarekzoka/plugin-mix/raw/main/enigma2-plugin-extensions-3plugin_1.5_all.ipk"
 wait
 opkg install --force-overwrite /tmp/*.ipk
 wait
