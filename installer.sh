@@ -10,7 +10,7 @@
 # Configure where we can find things here #
 TMPDIR='/tmp'
 VERSION='1.8'
-PACKAGE='enigma2-plugin-extensions-xcplugin-forever'
+PACKAGE='enigma2-plugin-extensions-3plugin_1.5_all.ipk'
 MY_URL='https://raw.githubusercontent.com/tarekzoka/plugin-mix//main/plugin-mix'
 
 ####################
@@ -47,11 +47,11 @@ fi
 ###################
 #  Install Plugin #
 if [ $OSTYPE = "Opensource" ]; then
-    echo "Insallling XcPlugin Forever plugin Please Wait ......"
+    echo "Insallling plugin-mix Please Wait ......"
     wget $MY_URL/${PACKAGE}_${VERSION}_all.ipk -qP $TMPDIR
     $OPKGINSTAL $TMPDIR/${PACKAGE}_${VERSION}_all.ipk
 else
-    echo "Insallling XcPlugin Forever plugin Please Wait ......"
+    echo "Insallling plugin-mix plugin Please Wait ......"
     wget $MY_URL/${PACKAGE}_${VERSION}_all.deb -qP $TMPDIR
     $DPKINSTALL $TMPDIR/${PACKAGE}_${VERSION}_all.deb; $OPKGINSTAL -f -y
 fi
