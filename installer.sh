@@ -11,7 +11,7 @@
 TMPDIR='/tmp'
 VERSION='1.8'
 PACKAGE='enigma2-plugin-extensions-3plugin_1.5_all.ipk'
-MY_URL='https://raw.githubusercontent.com/tarekzoka/plugin-mix//main/plugin-mix'
+MY_URL='https://raw.githubusercontent.com/tarekzoka/plugin-mix//main/3plugin_1.5_all.ipk'
 
 ####################
 #  Image Checking  #
@@ -51,7 +51,7 @@ if [ $OSTYPE = "Opensource" ]; then
     wget $MY_URL/${PACKAGE}_${VERSION}_all.ipk -qP $TMPDIR
     $OPKGINSTAL $TMPDIR/${PACKAGE}_${VERSION}_all.ipk
 else
-    echo "Insallling plugin-mix plugin Please Wait ......"
+    echo "Insallling 3plugin_1.5_all.ipkn Please Wait ......"
     wget $MY_URL/${PACKAGE}_${VERSION}_all.deb -qP $TMPDIR
     $DPKINSTALL $TMPDIR/${PACKAGE}_${VERSION}_all.deb; $OPKGINSTAL -f -y
 fi
