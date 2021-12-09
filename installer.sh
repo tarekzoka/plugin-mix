@@ -67,7 +67,7 @@ echo "**                                                                        
 echo "**                            XcPlugin   : $VERSION                                         *"
 echo "**                            Uploaded by: TAREK_T                                  *"
 echo "**                            Develop by : Lululla                                     *"
-echo "**  Support: https://www.linuxsat-support.com/thread/143881-xcplugin-forever-version/  *"
+echo "**  
 echo "**                                                                                     *"
 echo "****************************************************************************************"
 echo ""
