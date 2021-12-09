@@ -6,7 +6,7 @@
 # Command: wget https://raw.githubusercontent.com/tarekzoka/plugin-mix/main/installer.sh -qO - | /bin/sh
 #
 # ###########################################
-raw/main/enigma2-plugin-extensions-3plugin_1.5_all.ipk
+  
 #!/bin/sh
 #
 
